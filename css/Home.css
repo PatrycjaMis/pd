@@ -1,0 +1,100 @@
+body {
+    padding-top: 56px;
+    background-color: white;
+  }
+  
+.carousel-item {
+    height: 95vh !important;    
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+.portfolio-item {
+    margin-bottom: 30px;
+  }
+
+.welcome, .our-rooms
+{
+    top: 40%;
+    font-family: Georgia sans-serif;
+    font-size: 50px;
+}
+.our-rooms 
+{ 
+	font-size: 50px;
+}
+.rooms 
+{
+	margin: 0.2% auto auto auto;
+}
+.room
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+.img-fluid
+{
+    height: 400px;
+    object-fit: cover;
+}
+
+.container-3 
+{
+	background-color: #c8cbcf;
+}
+.container-3 h3 
+{
+	font-size: 40px;
+}
+.attention 
+{
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+@media (min-width: 760px)
+{
+    .rooms 
+	{
+		margin: 0.2% auto auto auto;
+	}
+}
+
+@media (min-width: 1024px)
+{
+    .nav-item
+	{ 
+		font-size: 20px;
+	}
+    .rooms 
+	{ 
+		margin: 0.2% auto auto auto;
+	}
+    .container-3
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 575px)
+{
+	.first_room 
+	{ 
+		padding-top: 10px;
+	}
+	.img 
+	{ 
+		padding: 10px;
+	}
+}

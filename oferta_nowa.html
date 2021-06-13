@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Oferta</title>
+
+  
+    <link href="css/bootstrap.min.css" rel="stylesheet">  
+    <link href="css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+
+<body>
+
+  <!-- NAVBAR TOP START -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container"> 
+      <!-- NAZWA HOTELU: LEWY GÓRNY RÓG -->         
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <a class="mt-2 mb-2 navbar-brand text-muted tlo_tekst" href="home_nowy.html">Hotel PatKat di Mare</a>   
+        <ul class="navbar-nav ml-auto">
+         <!-- ELEMENTY MENU START -->
+         <li class="nav-item">
+            <a class="nav-link" href="home_nowy.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="oferta_nowa.html">Oferta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="restauracja_nowa.html">Restauracja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="spa_nowe.html">SPA</a>
+          </li>
+          <li class="nav-item pr-4">
+            <a class="nav-link" href="kontakt_nowy.html">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-lg button-rezerwacja" href="Rezerwacja.php">Zarezerwuj pokój</a>
+          </li>
+          <!-- ELEMENTY MENU END -->          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR TOP END -->
+  <!-- KARUZELA START -->
+  <header>
+    <style>
+    .carousel-item
+{
+    height: 50vh !important;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+      </style>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- ZDJĘCIE 1 -->
+        <div class="carousel-item active" style="background-image: url('images/zdj1.jpg')">
+          <div class="carousel-caption d-none d-md-block"> 
+            <h3 class="welcome">Niezapomniany wypoczynek w PatKat di Mare</h3>
+            <p>Hotel z najpiękniejszymi widokami.</p>
+          </div>
+        </div>
+        <!-- ZDJĘCIE 2 -->
+        <div class="carousel-item" style="background-image: url('images/zdj2.jpg')">
+          <div class="carousel-caption d-none d-md-block">            
+          </div>
+        </div>
+        <!-- ZDJĘCIE 3 -->
+        <div class="carousel-item" style="background-image: url('images/zdj3.jpg')">
+          <div class="carousel-caption d-none d-md-block">            
+          </div>
+        </div>
+        <!-- ZDJĘCIE 4 -->
+        <div class="carousel-item" style="background-image: url('images/zdj4.jpg')">
+            <div class="carousel-caption d-none d-md-block">            
+            </div>
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+  <!-- KARUZELA END -->
+  
+  <div class="container container-2 col-10 block">
+    <div class="row pb-3">
+        <div class="col-lg-12">
+            <h2 class="h2 pt-5 text-center">Nasze przestronne pokoje:</h2>
+        </div>
+    </div>
+    <div class="row pb-5">
+        <div class="col-lg-12">
+            <p class="p text-justify font-18 text-center">Nowoczesny, przytulny styl pokoi wykonanych z najwyższej jakości materiałów 
+            daje poczucie komfortu i odprężenia. Do Państwa dyspozycji oddajemy komfortowe i gustownie urządzone pokoje jedno, dwu, trzy - osobowe 
+            oraz pokoje typu studio.</p>
+        </div>
+    </div>
+    <!--WYSZUKIWARKA-->
+    <div class="row pb-5">
+      <div class="col-lg-12 text-center">
+        <h2>Wyszukiwanie udogodnień w pokojach</h2>
+      </div>
+    </div>
+    <div class="row pb-5 justify-content-md-center">
+      <div class="col-lg-3">          
+          <select class="form-control" name="wyszukiwarka">
+            <option value="0">--</option> 
+            <option value="1">WiFi w pokoju</option> 
+            <option value="2">Telewizor z płaskim ekranem</option>
+            <option value="3">Kanały kablowe</option>
+            <option value="4">Sejf</option>
+            <option value="5">Szafa</option>
+            <option value="6">Suszarka do włosów</option>
+            <option value="7">Apteczka</option>
+            <option value="8">Ręczniki</option>
+            <option value="9">Ekspress do kawy</option>
+            <option value="10">Lodówka</option>
+            <option value="11">Klimatyzacja</option>
+            <option value="12">Biurko</option>
+            <option value="13">Część wypoczynkowa</option>
+            <option value="14">Łazienka z wanna</option>
+            <option value="15">Szlafrok</option>
+            <option value="16">Kapcie</option>
+            <option value="17">Minibar</option>
+            <option value="18">Zestaw kosmetyków</option>
+          </select> 
+      </div>
+      <div class="col-lg-3"> 
+          <button class="btn btn-dark btn-md wyszukaj">Wyszukaj</button>
+          <button class="btn btn-secondary btn-md wyczysc">Wyczyść filtr</button>
+      </div>
+    </div>
+
+
+    <!-- KARTY START -->
+    <!-- KARTA Z JEDNOOSOBOWYMI START -->
+    <div class="card mb-3 pokoj1" style="max-width: 100%;">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+             <!-- KARUZELA W KARCIE START -->            
+                <div id="carouselExampleIndicators2" class="carousel" data-ride="">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>                    
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- ZDJĘCIE 1 -->
+                    <div class="carousel-item carousel-item2 active" style="background-image: url('images/pokoj_jedno_1.jpg')">
+                    
+                    </div>
+                    <!-- ZDJĘCIE 2 -->
+                    <div class="carousel-item carousel-item2" style="background-image: url('images/pokoj_jedno_2.jpg')">
+                    <div class="carousel-caption d-none d-md-block">            
+                    </div>
+                    </div>                    
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            
+            <!-- KARUZELA W KARCIE END -->      
+          </div>
+          <div class="col-md-6">
+            <div class="card-body text-center">
+              <h5 class="card-title pb-3 pt-3">Pokoje jednoosobowe</h5>
+              <p class="card-text pb-3">Hotel posiada pokoje o standardzie Single (12 m<sup>2</sup>) - przestronne i doskonale wyposażone. 
+                  Stylistyka pokoi jest utrzymana w neutralnych kolorach z dbałościa o każdy szczegół, tak aby pobyt każdego z gości był na najwyższym poziomie.</p>
+                <button onclick="window.location.href = 'pokoj_1.html'" class="btn btn-warning btn-lg">Zobacz szczegóły</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- KARTA Z JEDNOOSOBOWYMI END -->
+
+      <!-- KARTA Z DWUOSOBOWYMI START -->
+    <div class="card mb-3 mt-5 pokoj2" style="max-width: 100%;">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+             <!-- KARUZELA W KARCIE START -->            
+                <div id="carouselExampleIndicators3" class="carousel" data-ride="">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- ZDJĘCIE 1 -->
+                    <div class="carousel-item carousel-item3 active" style="background-image: url('images/pokoj_dwu_1.jpg')">
+                    
+                    </div>
+                    <!-- ZDJĘCIE 2 -->
+                    <div class="carousel-item carousel-item3" style="background-image: url('images/pokoj_dwu_2.jpg')">
+                    <div class="carousel-caption d-none d-md-block">            
+                    </div>
+                    </div>
+                    <!-- ZDJĘCIE 3 -->
+                    <div class="carousel-item carousel-item3" style="background-image: url('images/pokoj_dwu_3.jpg')">
+                    <div class="carousel-caption d-none d-md-block">            
+                    </div>
+                    </div>
+                    <!-- ZDJĘCIE 4 -->
+                    <div class="carousel-item carousel-item3" style="background-image: url('images/pokoj_dwu_4.jpg')">
+                        <div class="carousel-caption d-none d-md-block">            
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            
+            <!-- KARUZELA W KARCIE END -->      
+          </div>
+          <div class="col-md-6">
+            <div class="card-body text-center ">
+              <h5 class="card-title pb-3 pt-3">Pokoje dwuosobowe</h5>
+              <p class="card-text pb-3">Pokoje typu Twin (21 m<sup>2</sup>) posiadają 2 osobne łóżka (bez możliwości złączenia) 
+                  bądź jedno łózka w rozmiarze King. Jest to idealny pokój dla par bądź towarzyszy podróży.</p>
+                <button onclick="window.location.href = 'pokoj_2.html'" class="btn btn-info btn-lg">Zobacz szczegóły</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- KARTA Z JEDNOOSOBOWYMI END -->
+
+       <!-- KARTA Z TRZYOSOBOWYMI START -->
+    <div class="card mb-3 mt-5 pokoj3" style="max-width: 100%;">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+             <!-- KARUZELA W KARCIE START -->            
+                <div id="carouselExampleIndicators4" class="carousel" data-ride="">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>                    
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- ZDJĘCIE 1 -->
+                    <div class="carousel-item carousel-item3 active" style="background-image: url('images/pokoj_trzy_1.jpg')">
+                    
+                    </div>
+                    <!-- ZDJĘCIE 2 -->
+                    <div class="carousel-item carousel-item3" style="background-image: url('images/pokoj_trzy_2.jpg')">
+                    <div class="carousel-caption d-none d-md-block">            
+                    </div>
+                    </div>
+                    <!-- ZDJĘCIE 3 -->
+                    <div class="carousel-item carousel-item3" style="background-image: url('images/pokoj_trzy_3.jpg')">
+                    <div class="carousel-caption d-none d-md-block">            
+                    </div>
+                    </div>                    
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            
+            <!-- KARUZELA W KARCIE END -->      
+          </div>
+          <div class="col-md-6">
+            <div class="card-body text-center">
+              <h5 class="card-title pb-3 pt-3">Pokoje trzyosobowe</h5>
+              <p class="card-text pb-3">Pokoje trzyosobowe posiadają 3 osobne łóżka 
+                  idealnie na podróże służbowe stwarzają najlepsze miejsce pobytu do komfortowego wypoczynku i do pracy. Istnieje możliwość dostawienia dodatkowego jednoosobowego łóżka.</p>
+                <button onclick="window.location.href = 'pokoj_3.html'" class="btn btn-success btn-lg">Zobacz szczegóły</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- KARTA Z TRZYOSOBOWYMI END -->
+
+       <!-- KARTA Z STUDIO START -->
+       <div class="card mb-3 mt-5 pokoj4" style="max-width: 100%;">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+             <!-- KARUZELA W KARCIE START -->            
+                <div id="carouselExampleIndicators5" class="carousel" data-ride="">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li> 
+                    <li data-target="#carouselExampleIndicators5" data-slide-to="3"></li>                       
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- ZDJĘCIE 1 -->
+                    <div class="carousel-item carousel-item3 active" style="background-image: url('images/pokoj_studio_1.jpg')">
+                    
+                    </div>
+                    <!-- ZDJĘCIE 2 -->
+                    <div class="carousel-item carousel-item3" style="background-image: url('images/pokoj_studio_2.jpg')">
+                    <div class="carousel-caption d-none d-md-block">            
+                    </div>
+                    </div>
+                    <!-- ZDJĘCIE 3 -->
+                    <div class="carousel-item carousel-item3" style="background-image: url('images/pokoj_studio_3.jpg')">
+                    <div class="carousel-caption d-none d-md-block">            
+                    </div>
+                    </div>    
+                    <!-- ZDJĘCIE 4 -->
+                    <div class="carousel-item carousel-item3" style="background-image: url('images/pokoj_studio_4.jpg')">
+                        <div class="carousel-caption d-none d-md-block">            
+                        </div>
+                        </div>                   
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            
+            <!-- KARUZELA W KARCIE END -->      
+          </div>
+          <div class="col-md-6">
+            <div class="card-body text-center">
+              <h5 class="card-title pb-3 pt-3">Studio</h5>
+              <p class="card-text pb-3">Kompromisem między funkcjonalnością a komfortem jest pokój typu Studio, w którym mogą spać 4 osoby. W jego skład wchodzi 
+                  część dzienna z rozkładaną kanapą oraz aneks sypialniany. Dodatkowo łazienka z wanną cieszy oko przyjemnym designem. </p>
+                <button onclick="window.location.href = 'pokoj_studio.html'" class="btn btn-primary btn-lg">Zobacz szczegóły</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- KARTA Z STUDIO END -->
+    
+</div>
+
+<footer class="container-fluid row m-0">
+    <div class="contact text-left ml-2 mt-3 mb-3 mr-auto">
+        Telefon recepcja: 00261 35 88 75 303<br>
+        Telefon biuro: 00261 87 99 98 564<br>
+        E-mail: recepcjaPatKatdiMare@gmail.com<br>
+        E-mail: biuroPatKatdiMare@gmail.com<br>
+    </div>
+    <div class="adress text-left ml-2 mt-4 mb-3 mr-2 text-white">
+        Madagaskar <br>
+        ul. Egzotyczna 54 <br>
+        105 Mananjary <br>
+    </div>    
+    <div class="icons mr-2 mt-4 mb-3 ml-2">
+        <img src="images/icons/fb.png" alt="Nie działa">
+        <img src="images/icons/rss.png" alt="Nie działa">
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="js/wyszukiwarka.js"></script>
+
+</body>
+
+</html>
